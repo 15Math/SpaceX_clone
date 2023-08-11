@@ -1,0 +1,34 @@
+
+.bg{
+    &.bg1{
+        background-image:url(../../img/home/01.jpg);
+    }
+    &.bg2{
+        background-image:url(../../img/home/03.jpg); 
+    }
+    &.bg3{
+        background-image:url(../../img/home/02.gif); 
+    }
+    &.bg4{
+        background-image:url(../../img/home/04.jpg); 
+    }
+}
+.arrowDown{
+    width: 10rem;
+}
+
+.containerSec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10rem;
+    
+    a{
+        margin-top: 3rem;
+        width: 10rem;
+        padding: 1rem;
+    }
+    h1{
+        max-width: 50rem;
+    }
+}
